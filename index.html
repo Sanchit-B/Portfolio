@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- *************************mobile view********* -->
+
+    <header class="header">
+      <div class="logo">
+        <h3>KM</h3>
+      </div>
+      <div class="icon1">
+        <i id="open" class="bx bx-menu bx-rotate-180"></i>
+      </div>
+      <div id="menu-mobile" class="menu ul">
+        <div id="home" class="link">HOME</div>
+        <div id="about" class="link">About</div>
+        <div id="skills" class="link">SKILLS</div>
+        <div id="contactanchor" class="link">CONTACT</div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="title">
+        <h1>
+          <div><span class="red">H</span>ello! I am KARISHMA MALHOTRA</div>
+          <div><span class="red">F</span>rontend Developer</div>
+        </h1>
+      </div>
+    </div>
+    <section id="about-content">
+      <div class="section1"><span class="red">A</span>BOUT</div>
+      <div class="aboutlines">
+        <div>
+          <img
+            style="width: 20%; display: inline-block; margin-left: 50px"
+            src="img/about.JPG"
+            alt="about me"
+            class="img1"
+          />
+          <div
+            style="
+              width: 60%;
+              display: inline-block;
+              vertical-align: top;
+              margin-left: 50px;
+              margin-top: 100px;
+            "
+            ;
+          >
+            <div>
+              I'm Creative frontend developer offering 2yrs of
+              experience.Skilled in designing,developing and testing multiple
+              web based applications. Currently working in Amdocs Company .As a
+              person I am flexible,dedicated and reliable.Having Experience in
+              developing and deploying enterprise solution using ReactJs,Redux
+              ,Javascript and other domain related.
+            </div>
+            <div style="text-align: center; margin-top: 50px">
+              <a
+                href="img/KARISHMA_MALHOTRA_Developer - MCA.pdf"
+                target="_blank"
+                class="resume"
+                >VIEW RESUME
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill_id" class="image skills_section">
+      <div class="section1"> <span class="red">S</span>KILLS</div>
+      <div class="container">
+        <h2>HTML</h2>
+        <span class="bar">
+          <span class="fill" id="html1"> </span>
+        </span>
+        <h2>CSS</h2>
+        <span class="bar">
+          <span class="fill" id="css"> </span>
+        </span>
+        <h2>JAVASCRIPT</h2>
+        <span class="bar">
+          <span class="fill" id="javascript"> </span>
+        </span>
+        <h2>JQUERY</h2>
+        <span class="bar">
+          <span class="fill" id="jquery"> </span>
+        </span>
+        <h2>REACT</h2>
+        <span class="bar">
+          <span class="fill" id="react"> </span>
+        </span>
+        <h2>REDUX</h2>
+        <span class="bar">
+          <span class="fill" id="redux"> </span>
+        </span>
+        <h2>MYSQL</h2>
+        <span class="bar">
+          <span class="fill" id="mysql"> </span>
+        </span>
+        <h2>AZURE FUNDAMENTALS</h2>
+        <span class="bar">
+          <span class="fill" id="azure"> </span>
+        </span>
+      </div>
+    </section>
+    <section id="contact" class="popup">
+      <div class="popupcontent">
+        <h3>CONTACT</h3>
+        <div class="close">X</div>
+
+        <form class="form">
+          <input
+            type="text"
+            id="fname"
+            name="firstName"
+            placeholder="Your  Full Name.."
+          />
+          <input
+            type="text"
+            id="lname"
+            name="mobileNo"
+            placeholder="Your Mobile Number.."
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
+          <input
+            type="text"
+            id="email"
+            name="emailId"
+            placeholder="@.com"
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something.."
+            style="height: 100px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+      <div class="Footer">CopyRight ©</div>
+    
+  </body>
+</html>

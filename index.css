@@ -1,0 +1,233 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+}
+.main {
+    background-image: url("../img/back_3.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.title{
+    position: absolute;
+    /* //bring in centre */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.title h1{
+    opacity: 0.5px;
+    font-size:40px;
+    color: white;  
+}
+.title h1:hover{
+    color: rgb(24, 22, 22);
+}
+
+h1 li{
+    list-style: none;
+}
+h2 ul a{
+margin-right: 50px;
+font-size:15px;
+color:rgb(124, 5, 100);
+text-decoration: none;
+font-size: 30px;
+border-style: solid;
+border-radius: 20px;
+background-color: rgb(194, 228, 233);
+border-color: white;
+margin-top: 5px;
+
+}
+.checkFloat
+{
+   width: 100%; 
+   height: 100%;
+   color: rgb(0, 0, 0);
+   overflow: hidden;
+   position: fixed;
+   top:0;
+}
+.leftfloat
+{
+    width:30%;
+    line-height:80px ;
+    background-color: #000000;
+    text-align: center;
+    color: rgb(207, 16, 112);
+    float:left;
+    font-size: 20px;
+}
+.rightfloat
+{
+    width:70%;
+    line-height:80px ;
+    background-color: #000000;
+    text-align: center;
+    float:right
+}
+.ul a{
+  margin-right:25px;
+  text-decoration: none;
+  color:whitesmoke;
+  
+  
+}
+ .Footer{
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    background: #000000;
+    text-align: center; 
+  
+}
+/* skill css */
+.Goback{
+float: left;
+font-size: 25px;
+}
+.image{
+    background-image: url("../img/white.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    overflow: hidden;
+}
+.container{
+    width: 800px;
+    margin: 150Px ;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color:rgb(192, 53, 106);
+    font-size: 20px;
+    
+}
+.bar{
+    height: 1px;
+    width: 100%;
+    border-left: 3px solid #10283b;
+    border-right: 3px solid #10283b;
+    border-radius: 5px;
+    margin:20px;
+    display:block;
+    padding :3px;
+}
+.fill
+{
+    height: 1px;
+    background-color:#10283b ;
+    border-radius: 2px;
+    display: block;
+    box-shadow: 0 0 5px;
+}
+#html1{
+    width:80%;
+    animation: html1 2s;
+}
+#css{
+    width:70%;
+    animation: css 2s;
+}
+#javascript{
+    width:50%;
+    animation: javascript 2s;
+}
+#jquery{
+    width:70%;
+    animation: jquery 2s;
+}
+#react{
+    width:70%;
+    animation: react 2s;
+}
+#redux{
+    width:70%;
+    animation: redux 2s;
+}
+#mysql{
+    width:75%;
+    animation: mysql 2s;
+}
+#azure{
+    width:50%;
+    animation:azure 2s;
+}
+@keyframes html1{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes react{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}@keyframes redux{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes mysql{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes azure{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
+/* 
+About me and contact us details */
+.section1,.section2
+{
+font-size: 30px;
+display: flex;
+min-height: 100vh;
+justify-content: center;
+color:#E91E63;
+font-weight: 700;
+}
